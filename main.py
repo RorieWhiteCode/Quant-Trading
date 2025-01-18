@@ -1,3 +1,13 @@
+
+import matplotlib.pyplot as plt
+import numpy as np
+import requests
+import time
+import time
+from playsound import playsound
+import tkinter as tk
+import threading
+import plotly.graph_objs as go
 def main():
     print("Choose a mode to run:")
     print("1. Dashboard Mode (default)")
