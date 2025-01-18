@@ -94,12 +94,12 @@ def main():
         print("Running Simulation Mode...")
         
         # Simulation parameters
-        initial_price = 0.07  # Starting price of Dogecoin
-        mu = 0.02  # Drift (2% daily return)
-        sigma = 0.1  # Volatility (10%)
-        days = 3  # Simulate over 3 days
-        steps_per_day = 24  # Hourly intervals
-        simulations = 1000  # Number of paths
+        initial_price = 0  # Starting price of Dogecoin
+        mu = 0  # Drift (2% daily return)
+        sigma = 0  # Volatility (10%)
+        days = 0  # Simulate over 3 days
+        steps_per_day = 0  # Hourly intervals
+        simulations = 0  # Number of paths
 
         # Function to simulate paths
         def simulate_doge_paths(initial_price, mu, sigma, days, steps_per_day, simulations):
